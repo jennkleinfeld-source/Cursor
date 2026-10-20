@@ -4,7 +4,11 @@ Created from live sheet `1p4v4LrUYiwohmmXDQcJmv7KHqYeUJkFYqPXC6T8AlZY` after DoR
 
 Parent epic: [SALES-9714](https://trr-prod.atlassian.net/browse/SALES-9714)
 
-## Paste into Design column K
+## Status: complete
+
+Keys written to **Design!K** on 2026-10-20. Stories **U/X** and Design **M** recalculated to `LOCKED IN JIRA`. Change Log row appended at `Change Log!A22:G22`.
+
+## Mapping
 
 | Story_ID | Design_ID | Design row | Eng (sheet) | Assignee | Jira |
 | --- | --- | --- | --- | --- | --- |
@@ -16,24 +20,9 @@ Parent epic: [SALES-9714](https://trr-prod.atlassian.net/browse/SALES-9714)
 | ST-044 | DS-055 | 22 | Alex Burton | Alex Burton | [SALES-10177](https://trr-prod.atlassian.net/browse/SALES-10177) |
 | ST-046 | DS-031 | 24 | Chris | Chris Burns | [SALES-10179](https://trr-prod.atlassian.net/browse/SALES-10179) |
 
-Plain keys for paste (hyperlink OK):
+## Verification (post-write)
 
-```
-DS-005 / ST-024 → SALES-10175
-DS-061 / ST-025 → SALES-10176
-DS-051 / ST-041 → SALES-10178
-DS-029 / ST-042 → SALES-10180
-DS-056 / ST-043 → SALES-10181
-DS-055 / ST-044 → SALES-10177
-DS-031 / ST-046 → SALES-10179
-```
-
-## After paste
-
-1. Confirm Stories **U** shows the key and **X** starts with `LOCKED IN JIRA`.
-2. Add a Change Log row (Tab=Design, Range=K15 etc., Action=Wrote Jira keys for Sprint 2 DoR set).
-3. Do **not** edit calculated columns Q:U / X / Y:AA / Design M.
-
-## Agent limitation
-
-Google Drive MCP could read the workbook but could not write Design!K (`appNotAuthorizedToFile` / no Sheets `write_range` connector). Keys were left on [SALES-9714](https://trr-prod.atlassian.net/browse/SALES-9714) as a comment as well.
+- Design K15/K19–K22/K24/K62 = keys above
+- Design M = `LOCKED IN JIRA…` for those rows
+- Stories U25/U26/U42–U45/U47 = matching keys
+- Stories X = `LOCKED IN JIRA: update SALES-##### instead.`
