@@ -15,22 +15,27 @@ Parent epic: [SALES-9714](https://trr-prod.atlassian.net/browse/SALES-9714)
 | ST-044 | DS-055 / K22 | [SALES-10177](https://trr-prod.atlassian.net/browse/SALES-10177) | Alex Burton |
 | ST-046 | DS-031 / K24 | [SALES-10179](https://trr-prod.atlassian.net/browse/SALES-10179) | Chris Burns |
 
-## Batch 2 (2026-10-21) — partial
+## Batch 2 (2026-10-21) — complete
 
 Re-read filter: DoR YES · U blank · X starts READY FOR JIRA · MoSCoW Must · Sprint ∈ {0,1,2}.
 
-| Story | Summary | Eng | Sprint | Status |
-| --- | --- | --- | --- | --- |
-| ST-045 | Assign cleared T&E Opps back to referring Ambassadors | Alex Burton | 2 | [SALES-10188](https://trr-prod.atlassian.net/browse/SALES-10188) → Design K23 LOCKED |
-| ST-070 | Enforce legal approval locks before convert/booking/shipping | Michael | 2 | [SALES-10189](https://trr-prod.atlassian.net/browse/SALES-10189) → Design K45 LOCKED |
-| ST-007 | Dedicated trust/estate payout account | Nag Malluru | 2 | **DoR ready — Jira create blocked (Atlassian MCP timeout)** |
-| ST-008 | T&E Event master (Labs Events / DS-048) | Michael | 2 | **DoR ready — Jira create blocked (Atlassian MCP timeout)** |
+| Story | Summary | Eng | Sprint | Key | Design K |
+| --- | --- | --- | --- | --- | --- |
+| ST-045 | Assign cleared T&E Opps back to referring Ambassadors | Alex Burton | 2 | [SALES-10188](https://trr-prod.atlassian.net/browse/SALES-10188) | K23 LOCKED |
+| ST-070 | Enforce legal approval locks before convert/booking/shipping | Michael | 2 | [SALES-10189](https://trr-prod.atlassian.net/browse/SALES-10189) | K45 LOCKED |
+| ST-007 | Dedicated trust/estate payout account | Nag Malluru | 2 | [SALES-10193](https://trr-prod.atlassian.net/browse/SALES-10193) | K5–K7 LOCKED |
+| ST-008 | T&E Event master (Labs Events / DS-048) | Michael | 2 | [SALES-10194](https://trr-prod.atlassian.net/browse/SALES-10194) | K9 LOCKED |
 
-Change Log: `A24:G24` documents ST-045/ST-070 Design K writes.
+Stories U8/U9 = keys above; X8/X9 = `LOCKED IN JIRA: update <key> instead.`
 
-### ST-007 / ST-008 create when Atlassian is back
+Change Log: `A27:F28` documents ST-045/070 and ST-007/008 Design K writes.
 
-- ST-007 → write key to Design **K5, K6, K7** (DS-023/024/025 Signed off; DS-026 Cancelled)
-- ST-008 → write key to Design **K9** (DS-048)
-- Assignees: Nag Malluru (`637bdbfc8fd2d2d5f12d5bb5`), Michael Criswell (`632d5cf588ed2ebef97a88ab`)
-- Draft payloads: `/tmp/create_ST-007.json`, `/tmp/create_ST-008.json` on the agent VM (not in repo)
+### ST-007 timeout duplicates (closed)
+
+Atlassian MCP timeouts caused create retries that still succeeded server-side. Canonical ticket is **SALES-10193**. Duplicates closed as Won't Do with comments pointing to the canonical key:
+
+- [SALES-10190](https://trr-prod.atlassian.net/browse/SALES-10190)
+- [SALES-10191](https://trr-prod.atlassian.net/browse/SALES-10191)
+- [SALES-10192](https://trr-prod.atlassian.net/browse/SALES-10192)
+
+ST-008 had no duplicates (only the spike [SALES-10142](https://trr-prod.atlassian.net/browse/SALES-10142) and canonical [SALES-10194](https://trr-prod.atlassian.net/browse/SALES-10194)).
