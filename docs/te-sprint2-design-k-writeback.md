@@ -43,10 +43,40 @@ Body: Identification (B→P# / C / D) first; verbatim Stories E + Definition F.
 
 Change Log: `A35:F35`. Stories U16/X16 locked.
 
-### Near-misses (out of filter)
+### Near-misses (out of filter at Batch 4)
 
 | Story | Why excluded |
 | --- | --- |
 | ST-096 | READY · Sprint 2 · Design signed off — **MoSCoW blank** |
-| ST-022 / ST-027 / ST-057–060 / ST-063 / ST-065 / ST-068 / ST-076 / ST-110 | READY · DoR YES — **Sprint 3** (and/or MoSCoW blank) |
+| ST-022 / ST-027 / ST-057–060 / ST-063 / ST-065 / ST-068 / ST-076 | READY · DoR YES — **Sprint 3** (created in Batch 5 after sprint filter removed) |
+| ST-110 | READY · DoR YES — **MoSCoW blank** |
 | ST-062 | READY — MoSCoW **Won't** |
+
+## Batch 5 (2026-10-23) — complete
+
+Filter: DoR YES · U blank · X READY FOR JIRA · MoSCoW ∈ {Must, Should} · **no sprint limit**.  
+Body: Identification (B→P# / C / D) first; verbatim Stories E + Definition F.  
+ST-022 description corrected post-create to match Definition F verbatim (edit SALES-10204).
+
+| Story | MoSCoW | Project | Functional area | Persona | Eng | Sprint | Key | Design K |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ST-022 | Must | P1 | Trusts - setup & management | T&E BDM | Michael | 3 | [SALES-10204](https://trr-prod.atlassian.net/browse/SALES-10204) | K60 (DS-059) |
+| ST-027 | Must | P1 | Trusts - setup & management | T&E BDM | Michael | 3 | [SALES-10205](https://trr-prod.atlassian.net/browse/SALES-10205) | K16 (DS-027) |
+| ST-057 | Must | P1 | Compensation | RevOps / Compensation | Sai Deepika Kanuri | 3 | [SALES-10206](https://trr-prod.atlassian.net/browse/SALES-10206) | K34 (DS-008) |
+| ST-058 | Must | P1 | Compensation | RevOps / Compensation | Sai Deepika Kanuri | 3 | [SALES-10207](https://trr-prod.atlassian.net/browse/SALES-10207) | K35 (DS-009) |
+| ST-059 | Must | P1 | Compensation | RevOps / Compensation | Sai Deepika Kanuri | 3 | [SALES-10208](https://trr-prod.atlassian.net/browse/SALES-10208) | K36 (DS-010) |
+| ST-060 | Must | P1 | Compensation | RevOps / Compensation | Sai Deepika Kanuri | 3 | [SALES-10209](https://trr-prod.atlassian.net/browse/SALES-10209) | K37 (DS-011) |
+| ST-063 | Must | P1 | Analytics, AI | T&E BDM Manager | Navin Gupta | 3 | [SALES-10210](https://trr-prod.atlassian.net/browse/SALES-10210) | K40 (DS-034) |
+| ST-065 | Must | P1 | Analytics, AI | T&E BDM | Navin Gupta | 3 | [SALES-10211](https://trr-prod.atlassian.net/browse/SALES-10211) | K42 (DS-035) |
+| ST-068 | Should | P1 | Trusts - setup & management | T&E BDM | Chris | 3 | [SALES-10212](https://trr-prod.atlassian.net/browse/SALES-10212) | K44 (DS-037) |
+| ST-076 | Must | P1 | Communication | T&E BDM | Chris | 3 | [SALES-10213](https://trr-prod.atlassian.net/browse/SALES-10213) | K49 (DS-042) |
+
+Change Log: `A36:F36`. Stories U/X locked for rows 23, 28, 58–61, 64, 66, 69, 77.
+
+### Still excluded
+
+| Story | Why excluded |
+| --- | --- |
+| ST-096 / ST-110 | MoSCoW blank |
+| ST-062 | MoSCoW **Won't** |
+| ST-016 / ST-017 / ST-023 | Not DoR READY |
