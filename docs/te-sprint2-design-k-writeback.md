@@ -73,10 +73,22 @@ ST-022 description corrected post-create to match Definition F verbatim (edit SA
 
 Change Log: `A36:F36`. Stories U/X locked for rows 23, 28, 58–61, 64, 66, 69, 77.
 
-### Still excluded
+### Still excluded (after Batch 5)
 
 | Story | Why excluded |
 | --- | --- |
-| ST-096 / ST-110 | MoSCoW blank |
+| ST-096 | MoSCoW blank |
+| ST-110 | Was MoSCoW blank at Batch 5 scan — **created in Batch 6** once MoSCoW=Must |
 | ST-062 | MoSCoW **Won't** |
 | ST-016 / ST-017 / ST-023 | Not DoR READY |
+
+## Batch 6 (2026-10-23) — complete
+
+Explicit ask for ST-110. Sheet now shows MoSCoW **Must**, DoR YES, Design Signed off, X READY FOR JIRA.  
+Body: Identification (B→P# / C / D) first; verbatim Stories E + Definition F.
+
+| Story | MoSCoW | Project | Functional area | Persona | Eng | Sprint | Key | Design K |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ST-110 | Must | P1 | Communication, Notes | T&E BDM | Chris | 3 | [SALES-10214](https://trr-prod.atlassian.net/browse/SALES-10214) | K57 (DS-046) |
+
+Change Log: `A37:F37`. Stories U110/X110 locked.
