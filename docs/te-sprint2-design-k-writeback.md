@@ -26,20 +26,27 @@ Parent epic: [SALES-9714](https://trr-prod.atlassian.net/browse/SALES-9714)
 
 ## Batch 3 (2026-10-22) — complete
 
-Filter: DoR YES · U blank · X READY FOR JIRA · **MoSCoW ∈ {Must, Should}** · Sprint ∈ {0,1,2}.  
-Ticket body: Identification (B→P#, C, D) first; **verbatim Stories E + Definition F**.
+| Story | MoSCoW | Key | Design K | Eng |
+| --- | --- | --- | --- | --- |
+| ST-028 | Should | [SALES-10198](https://trr-prod.atlassian.net/browse/SALES-10198) | K63 | Michael |
+| ST-047 | Should | [SALES-10199](https://trr-prod.atlassian.net/browse/SALES-10199) | K25 | Chris |
+| ST-089 | Must | [SALES-10200](https://trr-prod.atlassian.net/browse/SALES-10200) | K52 | Michael |
+
+## Batch 4 (2026-10-23) — complete
+
+Filter: DoR YES · U blank · X READY FOR JIRA · MoSCoW ∈ {Must, Should} · Sprint ∈ {0,1,2}.  
+Body: Identification (B→P# / C / D) first; verbatim Stories E + Definition F.
 
 | Story | MoSCoW | Project | Functional area | Persona | Eng | Sprint | Key | Design K |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ST-028 | Should | P1 | Trusts - setup & management | T&E BDM | Michael | 2 | [SALES-10198](https://trr-prod.atlassian.net/browse/SALES-10198) | K63 |
-| ST-047 | Should | P1 | Referrals | Field Sales Rep | Chris | 2 | [SALES-10199](https://trr-prod.atlassian.net/browse/SALES-10199) | K25 |
-| ST-089 | Must | P1 | Communication | T&E BDM | Michael | 2 | [SALES-10200](https://trr-prod.atlassian.net/browse/SALES-10200) | K52 |
+| ST-015 | Must | P1 | Routing Logic | BDR Sales Rep | Alex Burton | 2 | [SALES-10203](https://trr-prod.atlassian.net/browse/SALES-10203) | K12 (DS-003) |
 
-Change Log: `A29:F29`.
+Change Log: `A35:F35`. Stories U16/X16 locked.
 
 ### Near-misses (out of filter)
 
 | Story | Why excluded |
 | --- | --- |
-| ST-096 | DoR YES · READY · Sprint 2 · Design signed off — **MoSCoW blank** |
-| ST-022 / ST-027 / ST-068 / ST-110 | READY · DoR YES — **Sprint 3** (and/or MoSCoW blank on ST-110) |
+| ST-096 | READY · Sprint 2 · Design signed off — **MoSCoW blank** |
+| ST-022 / ST-027 / ST-057–060 / ST-063 / ST-065 / ST-068 / ST-076 / ST-110 | READY · DoR YES — **Sprint 3** (and/or MoSCoW blank) |
+| ST-062 | READY — MoSCoW **Won't** |
