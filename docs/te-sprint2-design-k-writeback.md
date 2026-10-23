@@ -80,7 +80,8 @@ Change Log: `A36:F36`. Stories U/X locked for rows 23, 28, 58–61, 64, 66, 69, 
 | ST-096 | MoSCoW blank |
 | ST-110 | Was MoSCoW blank at Batch 5 scan — **created in Batch 6** once MoSCoW=Must |
 | ST-062 | MoSCoW **Won't** |
-| ST-016 / ST-017 / ST-023 | Not DoR READY |
+| ST-016 / ST-023 | Later became DoR READY — **created in Batch 7** |
+| ST-017 | Design Not started / Partial — **phase 2; skip** |
 
 ## Batch 6 (2026-10-23) — complete
 
@@ -92,3 +93,15 @@ Body: Identification (B→P# / C / D) first; verbatim Stories E + Definition F.
 | ST-110 | Must | P1 | Communication, Notes | T&E BDM | Chris | 3 | [SALES-10214](https://trr-prod.atlassian.net/browse/SALES-10214) | K57 (DS-046) |
 
 Change Log: `A37:F37`. Stories U110/X110 locked.
+
+## Batch 7 (2026-10-23) — complete
+
+ST-016 / ST-023 became DoR READY (Design Signed off). ST-017 skipped (phase 2).  
+Body: Identification (B→P# / C / D) first; verbatim Stories E + Definition F.
+
+| Story | MoSCoW | Project | Functional area | Persona | Eng | Sprint | Key | Design K |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ST-016 | Must | P1 | Lead Intake BDR | BDR Sales Rep | Michael | 3 | [SALES-10216](https://trr-prod.atlassian.net/browse/SALES-10216) | K59 (DS-058) |
+| ST-023 | Must | P1 | Trusts - setup & management | T&E BDM | Michael | 3 | [SALES-10217](https://trr-prod.atlassian.net/browse/SALES-10217) | K61 (DS-060) |
+
+Change Log: `A38:F38`. Stories U17/X17 and U24/X24 locked.
