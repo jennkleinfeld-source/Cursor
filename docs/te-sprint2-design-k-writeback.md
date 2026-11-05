@@ -105,3 +105,18 @@ Body: Identification (B→P# / C / D) first; verbatim Stories E + Definition F.
 | ST-023 | Must | P1 | Trusts - setup & management | T&E BDM | Michael | 3 | [SALES-10217](https://trr-prod.atlassian.net/browse/SALES-10217) | K61 (DS-060) |
 
 Change Log: `A38:F38`. Stories U17/X17 and U24/X24 locked.
+
+## Batch 8 (2026-11-05) — complete
+
+Explicit ask for finished routing stories ST-073, ST-081, ST-113.
+Body: Identification (B→P#) first; Stories E + Definition ACs + Design How.
+All assigned to Alex Burton; label `ARB_Requested`; sprint **SRT Product Backlog (36)**; epic [SALES-9714](https://trr-prod.atlassian.net/browse/SALES-9714).
+@Navinchandra Gupta commented on each: need QA for this ticket.
+
+| Story | MoSCoW | Project | Functional area | Persona | Eng | Proposed Sprint | Key | Design K |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ST-073 | Must | P1 | Routing Logic | Rev Ops Management | Alex Burton | 1 | [SALES-10287](https://trr-prod.atlassian.net/browse/SALES-10287) | K48 (DS-041) |
+| ST-081 | Must | P1 | Routing Logic | T&E BDM Manager | Alex Burton | 2 | [SALES-10288](https://trr-prod.atlassian.net/browse/SALES-10288) | K66 (DS-065) |
+| ST-113 | Must | P1 | Routing Logic | T&E BDM Manager | Alex Burton | 1 | [SALES-10289](https://trr-prod.atlassian.net/browse/SALES-10289) | K77 (DS-076) |
+
+Change Log: `A41:F41`. Stories U74/U82/U113 locked.
